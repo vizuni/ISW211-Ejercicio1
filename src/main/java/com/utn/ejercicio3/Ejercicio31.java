@@ -54,14 +54,14 @@ public class Ejercicio31 {
                         break;
                     case 5:
                         operacionRealizada = "SALIR";
-                        System.out.println("La cantidad de operaciones realizadas es "+Operaciones.contadorOperaciones);
+                        System.out.println("\n\n\nLa cantidad de operaciones realizadas efectivas fue de "+Operaciones.contadorOperaciones);
                         System.exit(0);
                         break;
                     default:
                         System.out.println("Analizar las opciones del menu disponibles");;
                 }
                 
-                System.out.println("El resultado de la operación "
+                System.out.println("\nEl resultado de la operación "
                         +operacionRealizada+" es igual a "+ resultado);
                 
                 opcion = segundoMenu(opcion);
@@ -75,7 +75,7 @@ public class Ejercicio31 {
     
     public static int segundoMenu(int opcion){
         try {
-            System.out.println("Digite un 1 para volver a realizar "
+            System.out.println("\n\n\nDigite un 1 para volver a realizar "
                         + "la misma operación, o digite 0 para ver el menú principal");
             int valor = leer.nextInt();
             
