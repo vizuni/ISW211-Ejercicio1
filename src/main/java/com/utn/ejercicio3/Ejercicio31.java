@@ -20,6 +20,8 @@ public class Ejercicio31 {
     }
     
     public static void menuPrincipal(){
+        
+        System.out.println("Inicial IVAN");
         int opcion = 0;
         try {
             
